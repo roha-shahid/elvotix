@@ -1,0 +1,94 @@
+.footer-head {
+  padding-bottom: 1rem;
+  display: inline-block;
+  position: relative;
+  font-weight: 600;
+}
+.footer-head::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -5px;
+  width: 50%;
+  border-bottom: 3px solid #4baf4f;
+}
+
+a {
+  text-decoration: none;
+  color: #14284d;
+  font-weight: 400;
+  font-size: 15px;
+}
+
+.copyright-text {
+  background-color: #4baf4f;
+  color: #fff;
+  font-weight: 400;
+  font-size: 15px;
+}
+.footer_btn {
+  border: 2px solid #4baf4f;
+  padding: 22px 20px;
+  border-radius: 10px;
+  display: inline-block;
+  margin-top: 25px;
+}
+.footer_btn i {
+  font-size: 20px;
+  padding-right: 10px;
+  color: #4baf4f;
+}
+.footer_btn a {
+  color: #14284d !important;
+  font-size: 20px;
+  font-weight: 600;
+  margin: 0px !important;
+}
+
+.footer_btn a:hover {
+  color: #4baf4f !important;
+}
+
+.copyright-right a {
+  margin-left: 0.5rem;
+  color: #fff;
+}
+.submit-icon {
+    background-color: #4baf4f !important;
+    line-height: normal;
+    border-radius: 0;
+    border: none;
+    height: 45px;
+    width: 45px;
+    cursor: pointer;
+    color: #fff;
+    background: url(https://gracethemesdemo.com/elvotix/wp-content/themes/elvotix-pro/images/submit_icon.png) no-repeat;
+    background-position: center center;
+    position: absolute;
+    right: 7px;
+    top: 7px;
+    border-radius: 10px;
+}
+
+.email-input{
+  padding: 20px 20px 20px 30px;
+    border-radius: 0px;
+    font-size: 15px;
+    width: 100%;
+    background: #f4f4f4;
+    border: none;
+    padding-right: 65px;
+    border-radius: 10px;
+}
+
+.social-icons li a i{
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    border-radius: 10px;
+    margin: 0px 0px;
+    font-size: 15px;
+    color: #fff;
+    background: #4baf4f;
+    text-align: center;
+}

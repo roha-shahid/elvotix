@@ -1,0 +1,157 @@
+.contact-section {
+  background-image: url("https://gracethemesdemo.com/elvotix/wp-content/uploads/2024/10/elvotix_contact_bg.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #ffffff;
+}
+.contact-inner {
+  padding-top: 2rem;
+  padding-bottom: 6rem;
+}
+
+.compaign-secondary-text {
+  background-color: #f4f4f4;
+}
+.compaign-secondary-text .head-text {
+  color: #4baf4f;
+  font-family: "Poppins", Sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+}
+.compaign-secondary-text .text-contribution {
+  color: #4baf4f;
+  font-family: "Poppins", Sans-serif;
+  font-size: 82px;
+  font-weight: 700;
+}
+.compaign-secondary-text h2 {
+  color: #191919;
+  font-family: "Poppins", Sans-serif;
+  font-size: 41px;
+  font-weight: 600;
+  line-height: 1.2em;
+}
+
+.compaign-lg-btn {
+  background-color: #4baf4f;
+  font-family: "Poppins", Sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  fill: #ffffff;
+  color: #ffffff;
+  border-radius: 10px 10px 10px 10px;
+  padding: 18px 30px 18px 30px;
+}
+
+.compaign-lg-btn:is(:hover, :focus) {
+  background-color: #282828;
+  color: #ffffff;
+}
+
+.compaign-heading {
+  color: #ffffff;
+  font-family: "Poppins", Sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+}
+.compaign-heading::after {
+  content: "";
+  width: 3.5rem;
+  height: 2px;
+  background: #fff;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+
+.compaign-title {
+  color: #ffffff;
+  font-family: "Poppins", Sans-serif;
+  font-size: 54px;
+  font-weight: 700;
+  line-height: 1.2em;
+}
+.compaign-description {
+  padding: 5px 0px 15px 0px;
+  color: #ffffff;
+  font-family: "Poppins", Sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.contact-info {
+  background-color: #4baf4f;
+  padding: 25px 40px;
+  width: fit-content;
+}
+.contact-info h5 {
+  color: #ffffff;
+  font-family: "Poppins", Sans-serif;
+  font-size: 48px;
+  font-weight: 700;
+}
+.contact {
+  background-color: #fff;
+  padding: 4rem;
+  text-align: left;
+  color: #191919;
+}
+
+.contact h5 {
+  color: #14284d;
+  font-family: "Poppins", Sans-serif;
+  font-size: 25px;
+  font-weight: 600;
+  position: relative;
+  padding-bottom: 1.3rem;
+  padding-left: 0;
+}
+.contact h5::after {
+  content: "";
+  width: 3rem;
+  height: 2px;
+  background: #4baf4f;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+
+.contact-info-holder {
+  color: #282828;
+  font-family: "Poppins", Sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+}
+.contact-info-holder a {
+  color: #282828;
+  font-family: "Poppins", Sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  display: block;
+}
+
+.contact-position {
+  top: 13rem;
+  position: relative;
+}
+
+@media screen and (max-width: 992px) {
+  .compaign-secondary-text .head-text {
+    font-size: 15px;
+  }
+  .compaign-secondary-text .text-contribution {
+    font-size: 60px;
+    font-weight: 700;
+  }
+  .compaign-secondary-text h2 {
+    font-size: 30px;
+    font-weight: 500;
+  }
+}
+
+@media screen and (max-width: 768px) {
+    .contact-position {
+        top: 0;
+      }
+}

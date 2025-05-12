@@ -1,0 +1,52 @@
+.support-section {
+  background-image: url(https://gracethemesdemo.com/elvotix/wp-content/uploads/2024/10/support_bg.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  padding: 8rem;
+  background-size: cover;
+  border-radius: 10px;
+}
+
+.primary-button {
+  background-color: #ffffff;
+  font-family: "Poppins", Sans-serif;
+  font-size: 19px;
+  font-weight: 500;
+  fill: #282828;
+  color: #282828;
+  border-radius: 10px 10px 10px 10px;
+  padding: 18px 30px 18px 30px;
+}
+
+.primary-button:hover {
+  background-color: #282828;
+  color: #ffffff;
+}
+
+.support-section h2 {
+  color: #ffffff;
+  font-family: "Poppins", Sans-serif;
+  font-size: 46px;
+  font-weight: 700;
+  line-height: 1.2em;
+}
+
+.support-section h5 {
+  color: #ffffff;
+  font-family: "Poppins", Sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  padding-bottom: 1.2rem;
+  text-transform: capitalize;
+  position: relative;
+}
+
+.support-section h5::after{
+    content: "";
+    width: 4%;
+    height: 2px;
+    background: #fff;
+    position: absolute;
+    bottom: 0px;
+    left: 48%;
+}
