@@ -1,160 +1,236 @@
 /* Hero Section */
 .vote-hero-section {
-    min-height: 420px;
-    background: url('../../assets/sale_bg.jpg') center center/cover no-repeat; /* Replace with your actual image path */
-    position: relative;
-    color: #fff;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 60px 0 40px 0;
-  }
-  
-  .vote-hero-content {
-    max-width: 600px;
-    margin: 0 auto;
-  }
-  
-  .vote-hero-badge {
-    display: inline-block;
-    background: #4ec16e;
-    color: #fff;
-    font-weight: 600;
-    border-radius: 6px;
-    padding: 6px 18px;
-    font-size: 1rem;
-    letter-spacing: 0.5px;
-  }
-  
-  .vote-hero-title {
-    font-size: 2.8rem;
-    font-weight: 800;
-    letter-spacing: 1px;
-    text-transform: uppercase;
-    line-height: 1.1;
-  }
-  
-  .vote-hero-title-accent {
-    color: #4ec16e;
-  }
-  
-  .vote-hero-stars {
-    font-size: 1.5rem;
-    color: #fff;
-    letter-spacing: 0.2em;
-  }
-  
-  .vote-hero-subtitle {
-    font-size: 1.1rem;
-    font-weight: 500;
-    color: #fff;
-  }
-  
-  .vote-hero-btn {
-    background: #fff;
-    color: #1a2956;
-    border-radius: 8px;
-    font-weight: 600;
-    padding: 10px 32px;
-    border: none;
-    transition: background 0.2s, color 0.2s;
-  }
-  .vote-hero-btn:hover,
-  .vote-hero-btn:focus {
-    background: #4ec16e;
-    color: #fff;
-  }
-  
-  /* Lower Section */
-  .vote-lower-section {
-    background: #fff;
-  }
-  
-  .vote-diff-subtitle {
-    font-size: 1.05rem;
-  }
-  
+  min-height: 420px;
+  background: url("../../assets/sale_bg.jpg") center center/cover no-repeat; /* Replace with your actual image path */
+  position: relative;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 60px 0 40px 0;
+}
+
+.vote-hero-content {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.vote-hero-badge {
+  display: inline-block;
+  background: #4ec16e;
+  color: #fff;
+  font-weight: 600;
+  border-radius: 6px;
+  padding: 6px 18px;
+  font-size: 1rem;
+  letter-spacing: 0.5px;
+}
+
+.vote-hero-title {
+  font-size: 2.8rem;
+  font-weight: 800;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  line-height: 1.1;
+}
+
+.vote-hero-title-accent {
+  color: #4ec16e;
+}
+
+.vote-hero-stars {
+  font-size: 1.5rem;
+  color: #fff;
+  letter-spacing: 0.2em;
+}
+
+.vote-hero-subtitle {
+  font-size: 1.1rem;
+  font-weight: 500;
+  color: #fff;
+}
+
+.vote-hero-btn {
+  background: #fff;
+  color: #1a2956;
+  border-radius: 8px;
+  font-weight: 600;
+  padding: 10px 32px;
+  border: none;
+  transition: background 0.2s, color 0.2s;
+}
+.vote-hero-btn:hover,
+.vote-hero-btn:focus {
+  background: #4ec16e;
+  color: #fff;
+}
+
+/* Lower Section */
+.vote-lower-section {
+  background: #fff;
+}
+
+.vote-diff-subtitle {
+  color: #4baf4f;
+  font-family: "Poppins", Sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  position: relative;
+  padding-bottom: 1.3rem;
+}
+
+.vote-diff-subtitle::after {
+  content: "";
+  width: 3.5rem;
+  height: 2px;
+  background: #4baf4f;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+.vote-diff-title {
+  color: #191919;
+  font-family: "Poppins", Sans-serif;
+  font-size: 41px;
+  font-weight: 600;
+  line-height: 1.2em;
+}
+
+.vote-diff-desc {
+  color: #282828;
+  font-family: "Poppins", Sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.vote-progress-bar {
+  margin-top: 1rem;
+  height: 0.5rem !important;
+  border-radius: 0 !important;
+  background-color: #191919 !important;
+}
+
+.vote-progress-bar .progress-bar {
+  background-color: #4ec16e !important;
+  border-radius: 0;
+}
+
+.left-text {
+  padding-right: 5rem;
+}
+.vote-diff-btn {
+  background: #4ec16e;
+  color: #fff;
+  border-radius: 8px;
+  font-weight: 600;
+  padding: 10px 32px;
+  border: none;
+  margin-top: 10px;
+  transition: background 0.2s;
+}
+.vote-diff-btn:hover,
+.vote-diff-btn:focus {
+  background: #1a2956;
+  color: #fff;
+}
+
+/* Features Cards */
+.vote-features-cards {
+  background-color: #4baf4f;
+  border-radius: 1.5rem;
+}
+
+.vote-feature-card {
+  background: transparent;
+  color: #fff;
+  border-radius: 1rem;
+  box-shadow: none;
+  padding: 2.5rem 4rem;
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+}
+
+.vote-feature-card:nth-of-type(2) {
+  background-color: #3fa043;
+  border-radius: 0;
+}
+
+.vote-feature-title {
+  font-size: 1.1rem;
+  color: #fff;
+}
+
+.vote-feature-desc {
+  color: #e6f5ec !important;
+}
+
+/* Responsive Tweaks */
+@media (max-width: 991.98px) {
+  /* .vote-hero-title {
+    font-size: 2rem;
+  } */
   .vote-diff-title {
-    font-size: 2rem;
-    line-height: 1.2;
+    font-size: 30px;
   }
-  
-  .vote-diff-desc {
-    font-size: 1rem;
-    color: #555;
-  }
-  
-  .vote-progress-bar .progress-bar {
-    background-color: #4ec16e !important;
-    border-radius: 6px;
-    height: 8px;
-  }
-  
-  .vote-diff-btn {
-    background: #4ec16e;
-    color: #fff;
-    border-radius: 8px;
-    font-weight: 600;
-    padding: 10px 32px;
-    border: none;
-    margin-top: 10px;
-    transition: background 0.2s;
-  }
-  .vote-diff-btn:hover,
-  .vote-diff-btn:focus {
-    background: #1a2956;
-    color: #fff;
-  }
-  
-  /* Features Cards */
-  .vote-features-cards {
-    background: #4ec16e;
-    border-radius: 1.5rem;
-  }
-  
-  .vote-feature-card {
-    background: transparent;
-    color: #fff;
-    border-radius: 1rem;
-    box-shadow: none;
-  }
-  
-  .vote-feature-icon {
-    background: #fff;
-    color: #4ec16e;
-    width: 56px;
-    height: 56px;
-    border-radius: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: 0 auto 1rem auto;
-    font-size: 2rem;
-    box-shadow: 0 2px 8px rgba(76, 193, 110, 0.15);
-  }
-  
-  .vote-feature-title {
-    font-size: 1.1rem;
-    color: #fff;
-  }
-  
-  .vote-feature-desc {
-    color: #e6f5ec !important;
-  }
-  
-  /* Responsive Tweaks */
-  @media (max-width: 991.98px) {
-    .vote-hero-title {
-      font-size: 2rem;
-    }
-    .vote-diff-title {
-      font-size: 1.3rem;
-    }
-    .vote-features-cards {
-      margin-top: 2rem;
-    }
-  }
+  /* .vote-features-cards {
+    margin-top: 2rem;
+  } */
+}
 
 .vote-hero-bg {
-  background: url('../../assets/sale_bg.jpg') center center/cover no-repeat;
+  background: url("../../assets/sale_bg.jpg") center center/cover no-repeat;
+}
+
+.img-holder {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1.3rem;
+  flex: 0 0 auto; /* Prevent grow/shrink */
+}
+
+
+.img-holder img {
+  width: 100%;
+  height: auto;
+  max-height: 100%;
+  display: block;
+  object-fit: contain;
+}
+
+
+.vote-title {
+  margin-bottom: 13px;
+  color: #ffffff;
+  font-family: "Poppins", Sans-serif;
+  font-size: 22px;
+  font-weight: 500;
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.vote-desc {
+  color: #ffffff;
+  font-family: "Poppins", Sans-serif;
+  font-size: 17px;
+  font-weight: 400;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+@media screen and (max-width: 786px) {
+  .vote-feature-card{
+    flex-direction: column;
+  }
 }

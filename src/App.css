@@ -10,3 +10,21 @@
   box-sizing: border-box;
   font-family: 'Poppins', sans-serif;
 }
+
+.top-btn {
+  background-color: #4baf4f;
+  margin-top: 3.5rem;
+  font-family: "Poppins", Sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  border: none;
+  fill: #ffffff;
+  color: #ffffff;
+  border-radius: 10px;
+  padding: 18px 30px;
+}
+
+.top-btn:is(:hover, :focus) {
+  background-color: #282828;
+  color: #ffffff;
+}

@@ -20,6 +20,9 @@ import Contact from './components/Contact/Contact';
 import News from './components/News/News';
 import Donate from './components/Donate/Donate';
 import Highlight from './components/Highlight/Highlight';
+import Video from './components/Video/Video';
+import ClimateIssues from './components/ClimateIssues/ClimateIssues';
+import WhoWeAre from './components/WhoWeAre/WhoWeAre';
 
 function App() {
   return (
@@ -30,6 +33,9 @@ function App() {
       <Mission />
       <AboutSection />
       <KnowMore />
+      <WhoWeAre />
+      <ClimateIssues />
+      <Video />
       <Highlight />
       <VoteCount />
       <Donate />

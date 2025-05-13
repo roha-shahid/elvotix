@@ -9,6 +9,7 @@
   -webkit-box-orient: vertical;
   overflow: hidden;
   text-overflow: ellipsis;
+  margin-top: 2rem;
 }
 
 .highlight-section .h5 a {
@@ -25,7 +26,7 @@ h5 {
 }
 h5 span {
   background-color: #4baf4f;
-  padding: 10px 10px 10px 10px;
+  padding: 10px;
   margin-right: 0.5rem;
   color: #ffffff;
   font-family: "Poppins", Sans-serif;
@@ -73,4 +74,17 @@ h5 span {
 .highlight-section .second-card{
     border-top-left-radius: 12px;
     border-top-right-radius: 12px;
+}
+
+@media screen and (max-width: 992px) {
+  h5{
+    font-size: 12px;
+  }
+  h5 span{
+    padding: 5px;
+    font-size: 12px;
+  }
+  .highlight-section .h5{
+    font-size: 20px;
+  }
 }
