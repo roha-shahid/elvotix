@@ -135,7 +135,6 @@
   opacity: 1;
 }
 
-
 .top-btn {
   background-color: #4baf4f;
   font-family: "Poppins", Sans-serif;
@@ -151,4 +150,26 @@
 .top-btn:is(:hover, :focus) {
   background-color: #282828;
   color: #ffffff;
+}
+
+@media screen and (max-width: 992px) {
+  .hero-slider {
+    height: 40rem;
+  }
+}
+@media screen and (max-width: 786px) {
+  .hero-slider {
+    height: 30rem;
+  }
+  .text-section h1 {
+    font-size: 50px;
+  }
+  .text-section p {
+    font-size: 14px;
+  }
+  .primary-button,
+  .btn-outline {
+    padding: 8px 20px;
+    border-radius: 24px;
+  }
 }

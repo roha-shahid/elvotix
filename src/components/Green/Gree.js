@@ -52,7 +52,7 @@ const Green = () => {
   return (
     <section className="political-priorities">
       <div className="priorities-container container">
-        <div className="row">
+        <div className="row justify-content-center">
           <div className="priorities-header d-flex flex-column gap-2 text-start col-lg-5 col-md-12 col-sm-12">
             <h3>Main issues</h3>
             <h2>Politician Priorities</h2>

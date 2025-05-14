@@ -35,6 +35,9 @@
 .social-icons span {
   margin-left: 10px;
 }
+.social-icons a{
+  color: #fff;
+}
 
 .nav-bar {
   /* background: white; */
@@ -98,6 +101,16 @@
   
   .navbar-nav .nav-link {
     padding: 0.5rem 0;
+  }
+  .header-wrapper{
+    position: relative;
+ 
+  }
+  .top-bar{
+    color: #282828;
+  }
+  .social-icons a{
+    color: #282828;
   }
 }
   

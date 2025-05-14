@@ -43,7 +43,7 @@ function AboutSection() {
               </div>
               <ProgressBar now={87} className='my-3'/>
             </div>
-            <div className="d-flex align-items-center gap-4 flex-wrap">
+            <div className="about-flex">
               <img
                 src={here2}
                 alt="Jennifer Brown Avatar"
@@ -54,7 +54,7 @@ function AboutSection() {
                 <div className="about-author-name">Jennifer Brown</div>
                 <div className="about-author-title">CEO & Founder of Manit</div>
               </div>
-              <button className="ms-auto about-btn">Read More</button>
+              <button className="about-btn">Read More</button>
             </div>
           </Col>
         </Row>

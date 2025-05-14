@@ -82,3 +82,15 @@
         order: 2;
     }
 }
+
+@media screen and (max-width: 992px){
+  .slider-background{
+    align-items: end;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .top-btn{
+    font-size: 12px;
+    padding: 1rem;
+  }
+}

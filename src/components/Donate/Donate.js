@@ -14,7 +14,7 @@ const Donate = () => {
               <h2 className="mb-4">
                 Get Involved With Contribution, Make Yourself Proud!
               </h2>
-              <a href="#" className="btn primary-button">
+              <a href="#" className="btn primary-btn">
                 Donate Now!
               </a>
             </div>

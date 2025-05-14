@@ -109,10 +109,15 @@
   }
 }
 
-@media (max-width: 768px) {
+@media screen and (max-width: 768px) {
   .priorities-cards {
     flex-direction: column;
     align-items: center;
+  }
+
+  .priorities-header{
+    padding-right: 0 !important;
+    padding-block: 1rem;
   }
 
   .priority-card {

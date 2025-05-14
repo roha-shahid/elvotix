@@ -7,18 +7,18 @@
   border-radius: 10px;
 }
 
-.primary-button {
+.primary-btn {
   background-color: #ffffff;
   font-family: "Poppins", Sans-serif;
   font-size: 19px;
   font-weight: 500;
   fill: #282828;
   color: #282828;
-  border-radius: 10px 10px 10px 10px;
-  padding: 18px 30px 18px 30px;
+  border-radius: 10px;
+  padding: 18px 30px;
 }
 
-.primary-button:hover {
+.primary-btn:hover {
   background-color: #282828;
   color: #ffffff;
 }
