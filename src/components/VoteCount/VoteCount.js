@@ -1,11 +1,5 @@
 import React from "react";
-import {
-  Container,
-  Row,
-  Col,
-  Button,
-  ProgressBar,
-} from "react-bootstrap";
+import { Container, Row, Col, Button, ProgressBar } from "react-bootstrap";
 import "./VoteCount.css";
 
 const features = [
@@ -34,17 +28,30 @@ const VoteCount = () => {
         <Container>
           <div className="vote-hero-content mx-auto">
             <div className="vote-hero-badge mb-3">Every Vote Count</div>
-            <h1 className="vote-hero-title mb-2">
+            <h1 className="vote-hero-title">
               BELIEVE IN <span className="vote-hero-title-accent">CHANGE</span>
             </h1>
-            <div className="vote-hero-stars mb-2">**</div>
-            <div className="vote-hero-subtitle mb-3">
-              <span className="fw-bold">NEVER UNDERESTIMATE</span>
-              <br />
-              THE POWER OF{" "}
-              <span className="vote-hero-title-accent">AMERICAN PEOPLE</span>
+            <div className="vote-hero-stars mb-2">
+              <img
+                loading="lazy"
+                decoding="async"
+                width="449"
+                height="27"
+                src="https://gracethemesdemo.com/elvotix/wp-content/uploads/2024/10/sale_star.png"
+                className="img-fluid"
+                alt=""
+                srcset="https://gracethemesdemo.com/elvotix/wp-content/uploads/2024/10/sale_star.png 449w, 
+                        https://gracethemesdemo.com/elvotix/wp-content/uploads/2024/10/sale_star-300x18.png 300w"
+                sizes="(max-width: 449px) 100vw, 449px"
+              />
             </div>
-            <Button className="vote-hero-btn">Read More</Button>
+            <div className="vote-hero-subtitle mb-3">
+              <span className="subtitle">NEVER UNDERESTIMATE</span>
+              <br />
+              THE POWER OF 
+              <span className="title-accent"> AMERICAN</span> PEOPLE
+            </div>
+            <button className="vote-hero-btn">Read More</button>
           </div>
         </Container>
       </div>
@@ -71,13 +78,13 @@ const VoteCount = () => {
                 </p>
                 <div className="mb-3">
                   <div className="d-flex justify-content-between mb-1">
-                    <span className="fw-semibold">New Politic Programs</span>
-                    <span className="fw-semibold text-success">90%</span>
+                    <span className="percentage">New Politic Programs</span>
+                    <span className="percentage">90%</span>
                   </div>
                   <ProgressBar now={90} className="vote-progress-bar mb-3" />
                   <div className="d-flex justify-content-between mb-1">
-                    <span className="fw-semibold">Regulations & Rules</span>
-                    <span className="fw-semibold text-success">95%</span>
+                    <span className="percentage">Regulations & Rules</span>
+                    <span className="percentage">95%</span>
                   </div>
                   <ProgressBar now={95} className="vote-progress-bar" />
                 </div>
@@ -88,10 +95,7 @@ const VoteCount = () => {
             <Col md={6}>
               <div className="vote-features-cards p-0 text-start">
                 {features.map((feature, idx) => (
-                  <div
-                    key={feature.title}
-                    className="vote-feature-card"
-                  >
+                  <div key={feature.title} className="vote-feature-card">
                     <div className="img-holder">
                       <img src={feature.img} alt="feature-img" />
                     </div>

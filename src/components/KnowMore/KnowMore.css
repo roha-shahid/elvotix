@@ -1,82 +1,149 @@
 /* Section Title */
 .know-more-title {
-    font-size: 2.2rem;
-    line-height: 1.2;
+  color: #191919;
+  font-family: "Poppins", Sans-serif;
+  font-size: 41px;
+  font-weight: 600;
+  line-height: 1.2em;
+}
+
+@media (max-width: 576px) {
+  .know-more-title {
+    font-size: 1.5rem;
   }
-  
-  @media (max-width: 576px) {
-    .know-more-title {
-      font-size: 1.5rem;
-    }
-  }
-  
-  /* Button */
-  .know-more-btn {
-    background: #132364;
-    border-radius: 8px;
-    color:#fff;
-    font-size: 1rem;
-    transition: background 0.2s;
-  }
-  .know-more-btn:hover,
-  .know-more-btn:focus {
-    background: #222F64;
-    color: #fff;
-  }
-  
-  /* Leader Image */
-  .know-more-leader-img {
-    max-width: 80%;
-    height: auto;
-    border-radius: 1.5rem;
-  }
-  
-  /* Features Section */
-  .know-more-features-section {
-    background-image: url('../../assets/section_bg1.jpg');
-    background-size: cover;
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-color: rgba(34,47,100, 0.9);
-    background-blend-mode: overlay;
-  }
-  
-  /* Feature Card */
+}
+
+.know-more-desc {
+  color: #282828;
+  font-family: "Poppins", Sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  word-break: break-all;
+  padding-right: 3rem;
+}
+
+/* Button */
+.know-more-btn {
+  background-color: #222F64;
+    font-family: "Poppins", Sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    fill: #FFFFFF;
+    color: #FFFFFF;
+    border-radius: 10px;
+    padding: 14px 75px;
+}
+.know-more-btn:is(:hover,:focus) {
+  background: #282828;
+}
+
+.feature-desc {
+  text-align: center;
+  color: #282828;
+  font-family: "Poppins", Sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  transition: color 0.3s ease;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.know-more-feature-card:hover .feature-desc {
+  color: #fff;
+}
+/* Leader Image */
+.know-more-leader-img {
+  max-width: 80%;
+  height: auto;
+  border-radius: 1.5rem;
+}
+
+/* Features Section */
+.know-more-features-section {
+  background-image: url("../../assets/section_bg1.jpg");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  position: relative;
+}
+.know-more-features-section::before{
+  content: '';
+  top: 0;
+  right: 0;
+  height: 100%;
+  display: block;
+  mix-blend-mode: initial;
+  width: 100%;
+  position: absolute;
+  background-color: #222F64;
+  opacity: 0.9;
+
+}
+
+.about-subtitle {
+  color: #4baf4f;
+  font-family: "Poppins", Sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  position: relative;
+  padding-bottom: 1rem;
+}
+.about-subtitle::after {
+  content: "";
+  width: 3.5rem;
+  height: 2px;
+  background: #4baf4f;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+/* Feature Card */
+.know-more-feature-card {
+  background-color: #fff;
+  border-radius: 10px;
+  color: #191919;
+  transition: color 0.3s ease;
+}
+.know-more-feature-card:hover {
+  background-color: #4baf4f;
+  color: #fff;
+}
+
+/* Feature Number */
+.feature-number {
+  color: #ffffff;
+  font-family: "Poppins", Sans-serif;
+  font-size: 26px;
+  padding: 2.7rem 1.8rem;
+  line-height: 0;
+  display: inline-flex;
+  font-weight: 500;
+  background-color: #4baf4f;
+  border-radius: 100px;
+  transition: color 0.3s ease;
+}
+
+.know-more-feature-card:hover .feature-number {
+  color: #4baf4f;
+  background-color: #fff;
+}
+/* Feature Title */
+.know-more-feature-title {
+  color: #191919;
+  font-family: "Poppins", Sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 1.2em;
+}
+.know-more-feature-card:hover .know-more-feature-title {
+  color: #fff;
+}
+/* Responsive tweaks for cards */
+@media (max-width: 991.98px) {
   .know-more-feature-card {
-    background: #fff;
-    border-radius: 1rem;
-    transition: transform 0.2s, box-shadow 0.2s;
-    box-shadow: 0 2px 12px rgba(30, 41, 59, 0.08);
+    margin-bottom: 1.5rem;
   }
-  .know-more-feature-card:hover {
-    transform: translateY(-6px) scale(1.03);
-    box-shadow: 0 8px 32px rgba(30, 41, 59, 0.16);
-  }
-  
-  /* Feature Number */
-  .feature-number {
-    width: 56px;
-    height: 56px;
-    background: #4ec16e;
-    color: #fff;
-    font-weight: 700;
-    font-size: 1.3rem;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-bottom: 1rem;
-    box-shadow: 0 2px 8px rgba(76, 193, 110, 0.15);
-  }
-  
-  /* Feature Title */
-  .know-more-feature-title {
-    font-size: 1.1rem;
-  }
-  
-  /* Responsive tweaks for cards */
-  @media (max-width: 991.98px) {
-    .know-more-feature-card {
-      margin-bottom: 1.5rem;
-    }
-  }
+}

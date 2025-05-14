@@ -1,13 +1,13 @@
 /* Hero Section */
 .vote-hero-section {
   min-height: 420px;
-  background: url("../../assets/sale_bg.jpg") center center/cover no-repeat; /* Replace with your actual image path */
+  background: url("../../assets/sale_bg.jpg") center center/cover no-repeat;
   position: relative;
   color: #fff;
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 60px 0 40px 0;
+  padding: 5rem 0;
 }
 
 .vote-hero-content {
@@ -17,25 +17,30 @@
 
 .vote-hero-badge {
   display: inline-block;
-  background: #4ec16e;
-  color: #fff;
+  background: #4baf4f;
+  color: #ffffff;
+  font-family: "Poppins", Sans-serif;
+  font-size: 20px;
   font-weight: 600;
-  border-radius: 6px;
-  padding: 6px 18px;
-  font-size: 1rem;
-  letter-spacing: 0.5px;
+  padding: 8px 30px;
 }
 
 .vote-hero-title {
-  font-size: 2.8rem;
-  font-weight: 800;
-  letter-spacing: 1px;
+  color: #ffffff;
+  font-family: "Poppins", Sans-serif;
+  font-size: 62px;
+  font-weight: 700;
+  margin-bottom: 0;
   text-transform: uppercase;
-  line-height: 1.1;
 }
 
 .vote-hero-title-accent {
-  color: #4ec16e;
+  color: #ffffff;
+  font-family: "Poppins", Sans-serif;
+  font-size: 118px;
+  font-weight: 700;
+  text-transform: uppercase;
+  line-height: 0.9;
 }
 
 .vote-hero-stars {
@@ -45,23 +50,37 @@
 }
 
 .vote-hero-subtitle {
-  font-size: 1.1rem;
-  font-weight: 500;
-  color: #fff;
+  color: #ffffff;
+  font-family: "Poppins", Sans-serif;
+  font-size: 30px;
+  font-weight: 300;
+  text-transform: uppercase;
 }
 
-.vote-hero-btn {
-  background: #fff;
-  color: #1a2956;
-  border-radius: 8px;
+.vote-hero-subtitle .subtitle {
+  color: #ffffff;
+  font-family: "Poppins", Sans-serif;
+  font-size: 30px;
   font-weight: 600;
-  padding: 10px 32px;
-  border: none;
-  transition: background 0.2s, color 0.2s;
+  text-transform: uppercase;
 }
-.vote-hero-btn:hover,
-.vote-hero-btn:focus {
-  background: #4ec16e;
+
+.title-accent {
+  font-weight: 600;
+}
+.vote-hero-btn {
+  background-color: #ffffff;
+  font-family: "Poppins", Sans-serif;
+  font-size: 19px;
+  font-weight: 500;
+  fill: #282828;
+  color: #282828;
+  border-radius: 10px;
+  border: none;
+  padding: 18px 30px;
+}
+.vote-hero-btn:is(:hover, :focus) {
+  background: #282828;
   color: #fff;
 }
 
@@ -103,6 +122,12 @@
   font-weight: 400;
 }
 
+.percentage{
+  color: #010D2D;
+  font-family: "Poppins", Sans-serif;
+  font-size: 17px;
+  font-weight: 600;
+}
 .vote-progress-bar {
   margin-top: 1rem;
   height: 0.5rem !important;
@@ -179,7 +204,7 @@
 }
 
 .vote-hero-bg {
-  background: url("../../assets/sale_bg.jpg") center center/cover no-repeat;
+  background: url("../../assets/sale_bg.jpg") center bottom/cover no-repeat;
 }
 
 .img-holder {
@@ -194,7 +219,6 @@
   flex: 0 0 auto; /* Prevent grow/shrink */
 }
 
-
 .img-holder img {
   width: 100%;
   height: auto;
@@ -202,7 +226,6 @@
   display: block;
   object-fit: contain;
 }
-
 
 .vote-title {
   margin-bottom: 13px;
@@ -230,7 +253,27 @@
 }
 
 @media screen and (max-width: 786px) {
-  .vote-feature-card{
+  .vote-feature-card {
     flex-direction: column;
   }
+}
+
+@media screen and (max-width: 786px) {
+  .vote-hero-badge {
+    font-size: 16px;
+    font-weight: 500;
+  }
+  .vote-hero-title {
+    font-size: 50px;
+  }
+  .vote-hero-title-accent {
+    font-size: 85px;
+  }
+  .vote-hero-subtitle {
+    font-size: 20px;
+}
+.vote-hero-subtitle .subtitle {
+  font-size: 20px;
+ 
+}
 }

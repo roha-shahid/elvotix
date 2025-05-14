@@ -88,7 +88,7 @@ const WhoWeAre = () => {
           <div className="row">
             {statsData.map((item) => (
               <div className="col-md-3 text-center mb-4" key={item.id}>
-                <div className="cards py-5 px-3 d-flex flex-column justify-content-between">
+                <div className="cards py-5 px-3 d-flex flex-column justify-content-between align-items-center">
                   <div className="img-holder mb-3">
                     <img
                       src={item.image}
